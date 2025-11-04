@@ -1,0 +1,21 @@
+# Installing sass Globally
+
+    # 1. Installation script
+    # npm install -g sass
+
+    # 2. Check sass version
+    # sass --version
+
+# Installing sass locally in a Project
+
+    # 1. Initialize and install sass
+    # npm init -y
+    # npm install sass --save-dev
+
+    # 2. Add this to package.json
+    # "scripts": {
+    #     "sass": "sass --watch scss:css"
+    # }
+
+    # 3. Run the local development
+    # npm run sass
